@@ -1,0 +1,35 @@
+{
+	"name": "DebugConsole",
+	"description": "Ingame Debug Console for Developers.",
+	"author": "BangL",
+	"contact": "id/BangL",
+	"version": "0.1",
+	"blt_version": 2,
+	"color" : "0 0.47 1",
+	"priority" : 1000,
+	"hooks" : [
+		{
+			"hook_id" : "lib/setups/setup",
+			"script_path" : "setup.lua"
+		},
+		{
+			"hook_id" : "lib/managers/hudmanagerpd2",
+			"script_path" : "HUDManagerPD2.lua"
+		},
+		{
+			"hook_id" : "lib/managers/menu/menucomponentmanager",
+			"script_path" : "MenuComponentManager.lua"
+		}
+	],
+	"keybinds" : [
+		{
+			"keybind_id": "console_toggle",
+			"name": "Toggle debug console",
+			"description": "Toggles the ingame debug console.",
+			"script_path": "OpenDebugConsole.lua",
+			"run_in_menu": true,
+			"run_in_game": true,
+			"localized": false
+		}
+	]
+}
