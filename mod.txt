@@ -1,13 +1,14 @@
 {
 	"name": "DebugConsole",
-	"description": "Ingame Debug Console for Developers.",
+	"description": "An ingame Lua debug console for developers.",
 	"author": "BangL",
 	"contact": "id/BangL",
 	"version": "0.1",
 	"blt_version": 2,
-	"color" : "0 0.47 1",
-	"priority" : 1000,
-	"hooks" : [
+	"image": "con.png",
+	"color": "0 0.47 1",
+	"priority": 1000,
+	"hooks": [
 		{
 			"hook_id" : "lib/setups/setup",
 			"script_path" : "setup.lua"
@@ -21,7 +22,7 @@
 			"script_path" : "MenuComponentManager.lua"
 		}
 	],
-	"keybinds" : [
+	"keybinds": [
 		{
 			"keybind_id": "console_toggle",
 			"name": "Toggle debug console",
