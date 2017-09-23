@@ -23,13 +23,14 @@
 		}
 	],
 	"keybinds": [
-	{
-		"keybind_id": "console_toggle",
-		"name": "Toggle debug console",
-		"description": "Toggles the ingame debug console.",
-		"script_path": "OpenDebugConsole.lua",
-		"run_in_menu": true,
-		"run_in_game": true,
-		"localized": false
-	}]
+		{
+			"keybind_id": "console_toggle",
+			"name": "Toggle debug console",
+			"description": "Toggles the ingame debug console.",
+			"script_path": "OpenDebugConsole.lua",
+			"run_in_menu": true,
+			"run_in_game": true,
+			"localized": false
+		}
+	]
 }
