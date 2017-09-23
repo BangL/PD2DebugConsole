@@ -5,21 +5,21 @@
 	"contact": "id/BangL",
 	"version": "0.1",
 	"blt_version": 2,
-	"image": "con.png",
+	"image": "debcon.png",
 	"color": "0 0.47 1",
 	"priority": 1000,
 	"hooks": [
 		{
-			"hook_id" : "lib/setups/setup",
-			"script_path" : "setup.lua"
+			"hook_id": "lib/setups/setup",
+			"script_path": "setup.lua"
 		},
 		{
-			"hook_id" : "lib/managers/hudmanagerpd2",
-			"script_path" : "HUDManagerPD2.lua"
+			"hook_id": "lib/managers/hudmanagerpd2",
+			"script_path": "HUDManagerPD2.lua"
 		},
 		{
-			"hook_id" : "lib/managers/menu/menucomponentmanager",
-			"script_path" : "MenuComponentManager.lua"
+			"hook_id": "lib/managers/menu/menucomponentmanager",
+			"script_path": "MenuComponentManager.lua"
 		}
 	],
 	"keybinds": [
